@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="style.css">
     <title>Shopping List</title>
@@ -12,6 +14,7 @@
 
 <body>
     <header>
+        <img src="sale.png" alt="">
         <h2>Shopping List</h2>
     </header>
     <div class="main_container">
@@ -20,13 +23,13 @@
     </div>
     <div class="main_form">
         <div class="input-area">
-            <input id="item" type="text" placeholder="Shopping List">
-            <button type="submit" id="add" class="btn btn1 btn-success btn-xs">Lägg i kundvagn</button>
+            <input id="item" type="text" placeholder="Enter Shopping Item">
+            <button type="submit" id="add" class="btn btn-info btn-lg glyphicon glyphicon-shopping-cart">   ShoppingCart</button>
         </div>
     </div>
     <section class="section_main">
         <div class="section_main_headline">
-            <p>Kundvagn</p>
+            <p class="glyphicon glyphicon-shopping-cart">Kundvagn</p>
         </div>
         <div class="shopping-list">
             <ul id="list">
@@ -34,6 +37,7 @@
             </ul>
         </div>
     </section>
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
